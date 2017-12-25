@@ -1,0 +1,215 @@
+#wp-admin-bar-vc-inline-admin-bar-link, td.column-title .edit_vc, .composer-switch .wpb_switch-to-front-composer, .composer-switch span.vc-spacer:nth-of-type(3), #wpb-edit-inline, #message.rs-update-notice-wrap, #wpb-custom-post-css, .vc_row_edit_clone_delete .vc_row_image, .vc_admin_label.admin_label_css_animation.hidden-label, .vc-license-activation-notice, #wp-admin-bar-vc_inline-admin-bar-link, .wpb_el_type_tab_id, #vc_templates-more-layouts, #vc_post-settings-button, button[data-vc-ui-element-target="[data-tab=default_templates]"], .vc_ui-panel-header-actions, .vc_ui-help-block, .vc_navbar #vc_logo, a[href="admin.php?page=vc-automapper"], a[href="edit.php?post_type=vc_grid_item"], a[href="admin.php?page=vc-welcome"], #wpb-js-composer-settings .nav-tab-wrapper a:last-child {
+  display: none !important;
+}
+.wpb_switch-to-composer {
+border-radius: 0 3px 3px 0;
+}
+
+#update-nag, .update-nag {
+  display: block;
+}
+
+.vc_element-description, .vc_panel-tabs li:nth-child(3) {
+	display: none !important;
+}
+
+.wpb-elements-list-modal .vc_element-icon {
+  left: 38px !important;
+  top: 15px !important;
+}
+
+.vc_css-editor .vc_layout-onion .vc_margin > input, .vc_css-editor .vc_layout-onion .vc_margin > label {
+  display: none;
+}
+
+/* VISUAL COMPOSER - ICONS */
+
+.wpb-layout-element-button i {
+    background-position:center center !important;
+    height:20px !important;
+}
+.wpb-content-layouts i.vc-element-icon {
+    margin: 0px 0 5px !important;
+    position: static !important;
+    width: 100% !important;
+}
+.wpb-content-layouts li, .vc_el-container, .vc_el-container a {
+  width: 110px !important;
+  height: 80px !important;
+}
+.wpb-content-layouts a {
+  font-size: 11px !important;
+  padding: 25px 5px 5px !important;
+  text-align: center !important;
+  font-weight: 400 !important;
+}
+.wpb-content-layouts li .vc-el-container {
+    height: 79px !important;
+    width: 100% !important;
+}
+.wpb-content-layouts a i.vc-element-description {
+  display: none !important;
+}
+.b-content-layouts-container a, .wpb-layout-element-button a {
+    color:#333 !important;
+}
+.wpb-layout-element-button a:hover {
+    color:#333 !important;
+    background:#FFF;
+}
+.icon-wpb-layer-shape-text {
+    background-image:url(../images/admin/text_block.png) !important;
+}
+.icon-wpb-layout_sidebar {
+    background-image:url(../images/admin/widgetised_sidebar.png) !important;
+}
+.icon-wpb-raw-html {
+    background-image:url(../images/admin/raw_html.png) !important;
+}
+.icon-wpb-raw-javascript {
+    background-image:url(../images/admin/raw_js.png) !important;
+}
+.icon-wpb-ui-accordion {
+    background-image:url(../images/admin/accordion.png) !important;
+}
+.icon-wpb-information-white {
+    background-image:url(../images/admin/alert_message.png) !important;
+}
+.icon-wpb-ui-blank {
+    background-image:url(../images/admin/blank_divider.png) !important;
+}
+.icon-wpb-ui-button {
+    background-image:url(../images/admin/buttons.png) !important;
+}
+.icon-wpb-ui-contacti {
+    background-image:url(../images/admin/contact_info.png) !important;
+}
+.icon-wpb-ui-contactf, .icon-wpb-contactform7 {
+    background-image:url(../images/admin/contact_form.png) !important;
+}
+.icon-wpb-ui-separator {
+    background-image:url(../images/admin/divider.png) !important;
+}
+.icon-wpb-flickr {
+    background-image:url(../images/admin/flickr_feed.png) !important;
+}
+.icon-wpb-ui-projects {
+    background-image:url(../images/admin/latest_projects.png) !important;
+}
+.icon-wpb-ui-posts {
+    background-image:url(../images/admin/latest_posts.png) !important;
+}
+.icon-wpb-ui-posts2 {
+    background-image:url(../images/admin/post_widget.png) !important;
+}
+.icon-wpb-ui-promo {
+    background-image:url(../images/admin/promo_box.png) !important;
+}
+.icon-wpb-ui-promo2 {
+    background-image:url(../images/admin/promo_line.png) !important;
+}
+.icon-wpb-ui-tab-content {
+    background-image:url(../images/admin/tabs.png) !important;
+}
+.icon-wpb-ui-tab-content-vertical {
+    background-image:url(../images/admin/tagline.png) !important;
+}
+.icon-wpb-ui-separator-label {
+    background-image:url(../images/admin/section_title.png) !important;
+}
+.icon-wpb-ui-social {
+    background-image:url(../images/admin/social_icons.png) !important;
+}
+.icon-wpb-vc_pie {
+    background-image:url(../images/admin/stats.png) !important;
+}
+.icon-wpb-ui-team {
+    background-image:url(../images/admin/team_member.png) !important;
+}
+.icon-wpb-ui-testimonial {
+    background-image:url(../images/admin/testimonials.png) !important;
+}
+.icon-wpb-ui-textwic {
+    background-image:url(../images/admin/text_block_with_icon.png) !important;
+}
+.icon-wpb-ui-twitter {
+    background-image:url(../images/admin/twitter_feed.png) !important;
+}
+.icon-wpb-single-image {
+    background-image:url(../images/admin/anything_lightbox.png) !important;
+}
+.icon-wpb-ui-sharing {
+    background-image:url(../images/admin/social_sharing.png) !important;
+}
+.icon-wpb-wp {
+    background-image:url(../images/admin/wp-icon.png) !important;
+}
+.icon-wpb-row {
+    background-image:url(../images/admin/i-row.png) !important;
+}
+.icon-wpb-revslider {
+    background-image:url(../images/admin/i-rev.png) !important;
+}
+.icon-wpb-map-pin {
+    background-image:url(../images/admin/map.png) !important;
+}
+.icon-wpb-graph {
+    background-image:url(../images/admin/progress_bars.png) !important;
+}
+.icon-wpb-ui-table {
+    background-image:url(../images/admin/pricing.png) !important;
+}
+
+
+.attachment-50x50.wp-post-image {
+	border-radius: 5px;
+}
+.compat-field-video-desc input, .video-desc input {
+	display: none;
+}
+.compat-field-video-desc .field, .video-desc .field {
+  float: left;
+  width: 100%;
+}
+.compat-field-video-desc strong, .video-desc strong {
+  display: block;
+  float: left;
+  font-size: 14px;
+  width: 100%;
+}
+.compat-field-video-desc .help, .video-desc .help {
+	font-style: normal;
+}
+#set-post-thumbnail img {
+  border-radius: 3px;
+  height: auto;
+  max-width: 100%;
+}
+#menu-posts-portfolio .wp-menu-image:before, #menu-posts-gallery .wp-menu-image:before {
+  content: "\f115" !important;
+}
+body #menu-posts-portfolio .wp-menu-image, body #menu-posts-gallery .wp-menu-image {
+  background: none !important;
+}
+#krown-popup {
+  background: #fff !important;
+}
+.wpb-select.icon {
+  height: 40px !important;
+}
+.wpb-select.icon option {
+    padding: 4px;
+}
+
+.wpb-select.icon option:before {
+    clear: right;
+    display: block;
+    float: right;
+    font-size: 18px;
+    margin-top: -1px;
+}
+
+
+#poststuff #vc_teaser, label[for="vc_teaser-hide"] {
+  display: none !important;
+}

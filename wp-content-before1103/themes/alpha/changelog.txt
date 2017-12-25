@@ -1,0 +1,14 @@
+*** Alpha Changelog ***
+
+19 February 2016 - Version 1.0.2
+
+	* Fixed some minor initialization issues
+
+18 February 2016 - Version 1.0.1
+
+	* Fixed an issue with custom CSS & theme colors not working
+	* Fixed an issue with the flickr feed
+
+17 February 2016 - Version 1.0
+	
+	* First Release

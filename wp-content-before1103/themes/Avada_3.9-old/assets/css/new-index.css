@@ -1,0 +1,137 @@
+/*cloudforce-newIndex*/
+.new-index{font-family: 微软雅黑;font-size: 12px;}
+.new-index .company-con,.news .news-list,.industry-news-list{color: #000000; margin-top: 10px;margin-bottom: 10px}
+.new-index .news-list ul li,.industry-news-list ul li{list-style-type:none;}
+.new-index .news-list ul li i,.industry-news-list ul li i{margin-right: 5px;}
+.new-index .news-list ul li a:hover,.industry-news-list ul li a:hover,.new-index button a:hover{color: #0068b7;}
+.new-index .aboutUs .about-company{font-size: 16px;color: #0068b7;margin-right: 10px; display: initial;}
+.new-index .news .about-company{font-size: 16px;color: #0068b7;margin-right: 10px}
+.new-index .industry-news .about-company{font-size: 16px;color: #0068b7;margin-right: 10px}
+.aboutUs button,.news button,.industry-news button{border-radius: 50px; }
+.aboutUs, .news, .industry-news{margin-bottom: 20px}
+.products .products-title{font-size: 16px;color: #0068b7;margin-right: 10px;display:initial;}
+.news .news-list ul,.industry-news .industry-news-list ul{padding-left: 0;}
+.clearfix{padding-bottom: 10px}
+
+
+
+    /* CSS Document */
+.picbox ul,li{ padding:0; margin:0;}
+ul,li{ list-style:none;}
+/*img{ border:none;}*/
+/*a{ color:#6cf;}*/
+/*a:hover{ color:#84B263;}*/
+.box{ width:980px; margin:0 auto;position:relative;overflow:hidden; _height:100%;}
+.picbox{ width:980px; height:205px; overflow:hidden; position:relative;margin-top: 1px;}
+.piclist{ height:115px;position:absolute; left:0px; top:0px}
+.piclist li{ background:#ffffff; margin-right:20px; padding:4px; float:left;}
+.swaplist{ position:absolute; left:-3000px; top:0px}
+.og_prev,.og_next{
+    width:30px; height:40px; background:url(../images/icon.png) no-repeat;
+    background:url(../images/icon_ie6.png) no-repeat\9;
+    /*position:absolute;*/
+    top:33px; z-index:99; cursor:pointer;filter:alpha(opacity=70); opacity:0.7;}
+.og_prev{ background-position:0 -43px; left:4px;}
+.og_next{ background-position:0 0; right:4px;}
+
+.picbox ul li h3{font-size: 12px;}
+
+.news .about-company{display: inline;}
+.industry-news .about-company{display: inline;}
+
+.industry-news-list ul li{list-style: initial}
+.industry-news-list ul li h4{font-size: 12px;margin-top: 0;margin-bottom: 0}
+.industry-news-list ul li span{float: right;color: #0068b7;font-size: 12px;padding-top: 4px}
+
+/*移动端的产品展示*/
+/*--------------SLIDER----------------*/
+
+#slider {
+    width: 100%;
+    margin: 3px auto;
+}
+
+
+/*--------------CONTROLS--------------*/
+
+/*position controls*/
+.controls li {
+    top: 50%;
+    margin-top: -30px
+}
+
+.controls li:nth-child(1) {
+    left: 0;
+}
+
+.controls li:nth-child(2) {
+    right: 0;
+}
+
+
+/*------------PAGINATION------------*/
+
+/*style pagination*/
+.pagination li {
+    background-color: #ddd;
+}
+
+.pagination li.active {
+    background-color: #000;
+}
+
+
+/*-------------HELPERS----------------*/
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+#slider pre, dl, dt, dd, ol, ul, li, nav{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+
+#slider ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+#slider table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+@media (max-width: 900px) {
+#Switch{display: none}
+#sideOld{display: none}
+}
+
+@media (min-width: 900px) {
+    #slider{display: none}
+
+}
+/*移动端的产品展示*/
+
+/*cloudforce-newIndex*/

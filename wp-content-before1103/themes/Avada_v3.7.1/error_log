@@ -1,0 +1,4 @@
+[22-May-2016 20:48:05 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/cloudforce/public_html/wp-content/themes/Avada/404.php on line 1
+[18-Oct-2016 01:52:13 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/cloudforce/public_html/wp-content/themes/Avada/index.php on line 1
+[19-Mar-2017 14:28:38 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/cloudforce/public_html/wp-content/themes/Avada/404.php on line 1
+[23-Mar-2017 22:24:45 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/cloudforce/public_html/wp-content/themes/Avada/404.php on line 1
